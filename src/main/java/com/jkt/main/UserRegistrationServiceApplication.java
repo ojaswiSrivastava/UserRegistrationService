@@ -7,10 +7,10 @@ import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.security.crypto.password.PasswordEncoder;
 
 @SpringBootApplication
-public class RegistrationServiceApplication {
+public class UserRegistrationServiceApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(RegistrationServiceApplication.class, args);
+		SpringApplication.run(UserRegistrationServiceApplication.class, args);
 	}
 	@Bean
 	public PasswordEncoder passwordEncoder() {
